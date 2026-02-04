@@ -1,17 +1,31 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    
-    // 기본 접속 시 표시될 메시지
-    if (url.pathname === "/") {
-      return new Response("광고 저장소 Worker가 작동 중입니다. GitHub 연동 완료!", {
+    const path = url.pathname;
+
+    if (path === "/") {
+      return new Response("광고 저장소 연결 성공!", {
         headers: { "Content-Type": "text/plain; charset=utf-8" }
       });
     }
 
-    // 예: /ads/00_default/01.webp 경로로 접속 시 처리 (필요 시 로직 확장 가능)
-    return new Response(`${url.pathname} 경로에 접근 시도 중입니다.`, {
-      headers: { "Content-Type": "text/plain; charset=utf-8" }
+    const githubRawUrl = `https://raw.githubusercontent.com/wannabeur4leafclover-ops/my-ad-storage/main${path}`;
+
+    // 핵심: cf 설정을 통해 Cloudflare 서버에 이미지를 저장(캐싱)합니다.
+    const response = await fetch(githubRawUrl, {
+      cf: {
+        cacheTtl: 3600, // 1시간 동안 GitHub 접속 없이 Cloudflare가 직접 응답
+        cacheEverything: true,
+      },
     });
+
+    if (!response.ok) {
+      return new Response("파일을 찾을 수 없습니다.", { status: 404 });
+    }
+
+    // 응답을 복사하여 브라우저에 전달
+    const newResponse = new Response(response.body, response);
+    newResponse.headers.set("Cache-Control", "public, max-age=3600");
+    return newResponse;
   },
 };
