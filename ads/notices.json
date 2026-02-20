@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0.0",
+  "popups": [
+    {
+      "id": "welcome_2026",
+      "priority": 100,
+      "scope": "all",
+      "target_countries": [],
+      "target_regions": [],
+      "type": "text",
+      "window_title": "공지사항",
+      "title": "환영합니다!",
+      "content": "카카오톡 통합 마케팅 툴을 시작합니다.\n자그럼 시작합니다.\n감사합니다.",
+      "image_url": null,
+      "link_url": null,
+      "start_date": "2026-02-01T00:00:00Z",
+      "end_date": "2026-12-31T23:59:59Z",
+      "is_active": true,
+      "allow_check_box_never_show": true,
+      "never_show_checked": false,
+      "allow_check_box_hide_today": true,
+      "hide_today_checked": false,
+      "display_pages": null
+    },
+     {
+      "id": "countries_text",
+      "priority": 80,
+      "scope": "countries",
+      "target_countries": ["Thailand", "Vietnam"],
+      "target_regions": [],
+      "type": "text",
+      "window_title": "공지사항",
+      "title": "국가 공지",
+      "content": "Thailand 또는 Vietnam 사용자에게만 표시됩니다.",
+      "image_url": null,
+      "link_url": null,
+      "start_date": "2026-02-01T00:00:00Z",
+      "end_date": "2026-12-31T23:59:59Z",
+      "is_active": true,
+      "allow_check_box_never_show": true,
+      "never_show_checked": false,
+      "allow_check_box_hide_today": true,
+      "hide_today_checked": false,
+      "display_pages": null
+    }
+  ]
+}

@@ -1,0 +1,2380 @@
+{
+  "version": "1.0.0.0",
+  "last_updated": "2026-02-06",
+  "base_url": "https://my-ad-storage.wannabeur4leafclover.workers.dev",
+  "announcement": "맞춤형 광고 배너 서비스가 제공됩니다. 지역에 따라 최적화된 광고를 보실 수 있습니다.",
+  "image_format_priority": [
+    "webp",
+    "jpg",
+    "png"
+  ],
+  "regional_fallback": {
+    "KR": "Seoul",
+    "VN": "Hanoi",
+    "TH": "Bangkok",
+    "LA": "Vientiane",
+    "KH": "Phnom Penh",
+    "MM": "Naypyidaw",
+    "PH": "Manila",
+    "JP": "Tokyo",
+    "US": "Los Angeles"
+  },
+  "country_name_ko_map": {
+    "South Korea": "대한민국",
+    "Korea": "대한민국",
+    "Korea, South": "대한민국",
+    "South Korea (Republic of Korea)": "대한민국",
+    "Republic of Korea": "대한민국",
+    "Korea, Republic of": "대한민국",
+    "ROK": "대한민국",
+    "Vietnam": "베트남",
+    "Viet Nam": "베트남",
+    "Thailand": "태국",
+    "Kingdom of Thailand": "태국",
+    "Laos": "라오스",
+    "Lao PDR": "라오스",
+    "Lao People's Democratic Republic": "라오스",
+    "Cambodia": "캄보디아",
+    "Kingdom of Cambodia": "캄보디아",
+    "Myanmar": "미얀마",
+    "Burma": "미얀마",
+    "Philippines": "필리핀",
+    "Republic of the Philippines": "필리핀",
+    "Japan": "일본",
+    "State of Japan": "일본",
+    "Nippon": "일본",
+    "Nihon": "일본",
+    "United States": "미국",
+    "United States of America": "미국",
+    "USA": "미국",
+    "Usa": "미국",
+    "US": "미국",
+    "U.S.": "미국",
+    "U.S.A.": "미국",
+    "U.S.A": "미국",
+    "America": "미국"
+  },
+  "timeout_config": {
+    "location_detect_seconds": 5,
+    "manifest_load_seconds": 10,
+    "image_download_seconds": 10
+  },
+  "card_config": {
+    "image_width": 300,
+    "image_height": 172,
+    "title_height": 12,
+    "title_strip_width": 50,
+    "max_cards": 5,
+    "card_spacing": 2,
+    "sidebar_width": 350
+  },
+  "cache_config": {
+    "enable_cache": true,
+    "cache_duration_hours": 24,
+    "cache_folder": ".cache"
+  },
+  "update_frequency": {
+    "interval_days": 7,
+    "next_expected_update": "2026-02-13"
+  },
+  "city_name_ko_map": {
+    "Bangkok": "방콕",
+    "Busan": "부산",
+    "Cebu": "세부",
+    "Chiang Mai": "치앙마이",
+    "Da Nang": "다낭",
+    "Danang": "다낭",
+    "Daejeon": "대전",
+    "Daegu": "대구",
+    "Gwangju": "광주",
+    "Hanoi": "하노이",
+    "Ha Long Bay": "하롱베이",
+    "Ho Chi Minh City": "호치민",
+    "Ho Chi Minh": "호치민",
+    "HCMC": "호치민",
+    "Hua Hin": "후아힌",
+    "Incheon": "인천",
+    "Koh Samui": "코사무이",
+    "Luang Prabang": "루앙프라방",
+    "Manila": "마닐라",
+    "Naypyidaw": "네피도",
+    "Nay Pyi Taw": "네피도",
+    "Naypyitaw": "네피도",
+    "Nha Trang": "나트랑",
+    "Pattaya": "파타야",
+    "Phnom Penh": "프놈펜",
+    "Seoul": "서울",
+    "Siem Reap": "씨엠립",
+    "Vang Vieng": "방비엥",
+    "Vientiane": "비엔티안",
+    "Vung Tau": "붕따우",
+    "Yangon": "양곤",
+    "Tokyo": "도쿄",
+    "Osaka": "오사카",
+    "Kobe": "고베시",
+    "Fukuoka": "후쿠오카시",
+    "Yokohama": "요코하마시",
+    "Tokyo-to": "도쿄",
+    "Osaka-shi": "오사카",
+    "Kobe-shi": "고베시",
+    "Fukuoka-shi": "후쿠오카시",
+    "Yokohama-shi": "요코하마시",
+    "bacninh": "박닌",
+    "bangkok": "방콕",
+    "busan": "부산",
+    "cantho": "칸토",
+    "cebu": "세부",
+    "chiangmai": "치앙마이",
+    "danang": "다낭",
+    "daejeon": "대전",
+    "daegu": "대구",
+    "gwangju": "광주",
+    "halongbay": "하롱베이",
+    "hanoi": "하노이",
+    "hochiminh": "호치민",
+    "huahin": "후아힌",
+    "incheon": "인천",
+    "kohsamui": "코사무이",
+    "luangprabang": "루앙프라방",
+    "manila": "마닐라",
+    "naypyidaw": "네피도",
+    "nhatrang": "나트랑",
+    "pattaya": "파타야",
+    "phnompenh": "프놈펜",
+    "seoul": "서울",
+    "siemreap": "씨엠립",
+    "vangvieng": "방비엥",
+    "vientiane": "비엔티안",
+    "vungtau": "붕따우",
+    "yangon": "양곤",
+    "Los Angeles": "로스앤젤레스",
+    "LA": "로스앤젤레스",
+    "New York": "뉴욕",
+    "New York City": "뉴욕",
+    "NYC": "뉴욕",
+    "Washington": "워싱턴",
+    "Washington, D.C.": "워싱턴",
+    "Washington DC": "워싱턴",
+    "DC": "워싱턴",
+    "D.C.": "워싱턴",
+    "Seattle": "시애틀",
+    "Chicago": "시카고",
+    "Atlanta": "애틀랜타",
+    "San Francisco": "샌프란시스코",
+    "SF": "샌프란시스코",
+    "losangeles": "로스앤젤레스",
+    "newyork": "뉴욕",
+    "washington": "워싱턴",
+    "seattle": "시애틀",
+    "chicago": "시카고",
+    "atlanta": "애틀랜타",
+    "sanfrancisco": "샌프란시스코",
+    "tokyo": "도쿄",
+    "osaka": "오사카",
+    "kobe": "고베시",
+    "fukuoka": "후쿠오카시",
+    "yokohama": "요코하마시"
+  },
+  "regions": [
+    {
+      "country": "South Korea",
+      "country_code": "KR",
+      "folder": "01_korea",
+      "cities": [
+        {
+          "city": "Seoul",
+          "folder_path": "01_korea/seoul",
+          "ads": [
+            {
+              "id": "kr_seoul_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_seoul_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_seoul_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_seoul_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_seoul_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Busan",
+          "folder_path": "01_korea/busan",
+          "ads": [
+            {
+              "id": "kr_busan_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_busan_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_busan_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_busan_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kr_busan_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Incheon",
+          "folder_path": "01_korea/incheon",
+          "ads": [
+            {
+              "id": "incheon_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "incheon_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "incheon_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "incheon_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "incheon_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Daegu",
+          "folder_path": "01_korea/daegu",
+          "ads": [
+            {
+              "id": "daegu_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daegu_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daegu_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daegu_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daegu_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Daejeon",
+          "folder_path": "01_korea/daejeon",
+          "ads": [
+            {
+              "id": "daejeon_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daejeon_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daejeon_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daejeon_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "daejeon_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Gwangju",
+          "folder_path": "01_korea/gwangju",
+          "ads": [
+            {
+              "id": "gwangju_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "gwangju_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "gwangju_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "gwangju_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "gwangju_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "country_code": "VN",
+      "folder": "02_vietnam",
+      "cities": [
+        {
+          "city": "Hanoi",
+          "folder_path": "02_vietnam/hanoi",
+          "ads": [
+            {
+              "id": "vn_hanoi_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hanoi_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hanoi_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hanoi_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hanoi_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Ho Chi Minh City",
+          "folder_path": "02_vietnam/hochiminh",
+          "ads": [
+            {
+              "id": "vn_hcm_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hcm_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hcm_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hcm_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vn_hcm_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Da Nang",
+          "folder_path": "02_vietnam/danang",
+          "ads": [
+            {
+              "id": "danang_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "danang_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "danang_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "danang_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "danang_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Nha Trang",
+          "folder_path": "02_vietnam/nhatrang",
+          "ads": [
+            {
+              "id": "nhatrang_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "nhatrang_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "nhatrang_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "nhatrang_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "nhatrang_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Vung Tau",
+          "folder_path": "02_vietnam/vungtau",
+          "ads": [
+            {
+              "id": "vungtau_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vungtau_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vungtau_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vungtau_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vungtau_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Bac Ninh",
+          "folder_path": "02_vietnam/bacninh",
+          "ads": [
+            {
+              "id": "bacninh_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "bacninh_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "bacninh_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "bacninh_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "bacninh_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Can Tho",
+          "folder_path": "02_vietnam/cantho",
+          "ads": [
+            {
+              "id": "cantho_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cantho_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cantho_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cantho_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cantho_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Ha Long Bay",
+          "folder_path": "02_vietnam/halongbay",
+          "ads": [
+            {
+              "id": "halongbay_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "halongbay_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "halongbay_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "halongbay_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "halongbay_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "country_code": "TH",
+      "folder": "03_thailand",
+      "cities": [
+        {
+          "city": "Bangkok",
+          "folder_path": "03_thailand/bangkok",
+          "ads": [
+            {
+              "id": "th_bangkok_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "th_bangkok_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "th_bangkok_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "th_bangkok_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "th_bangkok_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Chiang Mai",
+          "folder_path": "03_thailand/chiangmai",
+          "ads": [
+            {
+              "id": "chiangmai_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "chiangmai_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "chiangmai_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "chiangmai_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "chiangmai_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Pattaya",
+          "folder_path": "03_thailand/pattaya",
+          "ads": [
+            {
+              "id": "pattaya_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "pattaya_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "pattaya_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "pattaya_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "pattaya_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Hua Hin",
+          "folder_path": "03_thailand/huahin",
+          "ads": [
+            {
+              "id": "huahin_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "huahin_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "huahin_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "huahin_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "huahin_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Koh Samui",
+          "folder_path": "03_thailand/kohsamui",
+          "ads": [
+            {
+              "id": "kohsamui_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kohsamui_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kohsamui_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kohsamui_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kohsamui_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Laos",
+      "country_code": "LA",
+      "folder": "04_laos",
+      "cities": [
+        {
+          "city": "Vientiane",
+          "folder_path": "04_laos/vientiane",
+          "ads": [
+            {
+              "id": "la_vientiane_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "la_vientiane_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "la_vientiane_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "la_vientiane_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "la_vientiane_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Luang Prabang",
+          "folder_path": "04_laos/luangprabang",
+          "ads": [
+            {
+              "id": "luangprabang_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "luangprabang_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "luangprabang_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "luangprabang_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "luangprabang_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Vang Vieng",
+          "folder_path": "04_laos/vangvieng",
+          "ads": [
+            {
+              "id": "vangvieng_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vangvieng_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vangvieng_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vangvieng_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "vangvieng_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "country_code": "KH",
+      "folder": "05_cambodia",
+      "cities": [
+        {
+          "city": "Phnom Penh",
+          "folder_path": "05_cambodia/phnompenh",
+          "ads": [
+            {
+              "id": "kh_phnompenh_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kh_phnompenh_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kh_phnompenh_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kh_phnompenh_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kh_phnompenh_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Siem Reap",
+          "folder_path": "05_cambodia/siemreap",
+          "ads": [
+            {
+              "id": "siemreap_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "siemreap_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "siemreap_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "siemreap_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "siemreap_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Myanmar",
+      "country_code": "MM",
+      "folder": "06_myanmar",
+      "cities": [
+        {
+          "city": "Yangon",
+          "folder_path": "06_myanmar/yangon",
+          "ads": [
+            {
+              "id": "mm_yangon_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "mm_yangon_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "mm_yangon_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "mm_yangon_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "mm_yangon_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Naypyidaw",
+          "folder_path": "06_myanmar/naypyidaw",
+          "ads": [
+            {
+              "id": "naypyidaw_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "naypyidaw_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "naypyidaw_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "naypyidaw_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "naypyidaw_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "country_code": "PH",
+      "folder": "07_philippines",
+      "cities": [
+        {
+          "city": "Manila",
+          "folder_path": "07_philippines/manila",
+          "ads": [
+            {
+              "id": "ph_manila_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "ph_manila_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "ph_manila_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "ph_manila_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "ph_manila_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Cebu",
+          "folder_path": "07_philippines/cebu",
+          "ads": [
+            {
+              "id": "cebu_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cebu_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cebu_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cebu_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "cebu_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "country_code": "JP",
+      "folder": "08_japan",
+      "cities": [
+        {
+          "city": "Tokyo",
+          "folder_path": "08_japan/tokyo",
+          "ads": [
+            {
+              "id": "tokyo_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "tokyo_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "tokyo_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "tokyo_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "tokyo_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Osaka",
+          "folder_path": "08_japan/osaka",
+          "ads": [
+            {
+              "id": "osaka_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "osaka_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "osaka_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "osaka_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "osaka_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Kobe",
+          "folder_path": "08_japan/kobe",
+          "ads": [
+            {
+              "id": "kobe_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kobe_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kobe_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kobe_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "kobe_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Fukuoka",
+          "folder_path": "08_japan/fukuoka",
+          "ads": [
+            {
+              "id": "fukuoka_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "fukuoka_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "fukuoka_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "fukuoka_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "fukuoka_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Yokohama",
+          "folder_path": "08_japan/yokohama",
+          "ads": [
+            {
+              "id": "yokohama_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "yokohama_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "yokohama_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "yokohama_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "yokohama_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "United States",
+      "country_code": "US",
+      "folder": "09_usa",
+      "cities": [
+        {
+          "city": "Los Angeles",
+          "folder_path": "09_usa/losangeles",
+          "ads": [
+            {
+              "id": "us_la_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_la_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_la_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_la_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_la_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "New York",
+          "folder_path": "09_usa/newyork",
+          "ads": [
+            {
+              "id": "us_ny_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_ny_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_ny_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_ny_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_ny_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Washington",
+          "folder_path": "09_usa/washington",
+          "ads": [
+            {
+              "id": "us_dc_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_dc_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_dc_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_dc_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_dc_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Seattle",
+          "folder_path": "09_usa/seattle",
+          "ads": [
+            {
+              "id": "us_seattle_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_seattle_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_seattle_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_seattle_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_seattle_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Chicago",
+          "folder_path": "09_usa/chicago",
+          "ads": [
+            {
+              "id": "us_chicago_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_chicago_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_chicago_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_chicago_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_chicago_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "Atlanta",
+          "folder_path": "09_usa/atlanta",
+          "ads": [
+            {
+              "id": "us_atlanta_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_atlanta_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_atlanta_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_atlanta_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_atlanta_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        },
+        {
+          "city": "San Francisco",
+          "folder_path": "09_usa/sanfrancisco",
+          "ads": [
+            {
+              "id": "us_sf_001",
+              "title": "올리브 해상해운",
+              "image": "01.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_sf_002",
+              "title": "올리브 해상해운",
+              "image": "02.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_sf_003",
+              "title": "올리브 해상해운",
+              "image": "03.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_sf_004",
+              "title": "올리브 해상해운",
+              "image": "04.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            },
+            {
+              "id": "us_sf_005",
+              "title": "올리브 해상해운",
+              "image": "05.webp",
+              "url": "http://oliveseanair.com/",
+              "description": "올리브택배입니다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "default": {
+    "folder": "00_default",
+    "folder_path": "00_default/general",
+    "ads": [
+      {
+        "id": "default_001",
+        "title": "올리브 해상해운",
+        "image": "01.webp",
+        "url": "http://oliveseanair.com/",
+        "description": "올리브택배입니다."
+      },
+      {
+        "id": "default_002",
+        "title": "올리브 해상해운",
+        "image": "02.webp",
+        "url": "http://oliveseanair.com/",
+        "description": "올리브택배입니다."
+      },
+      {
+        "id": "default_003",
+        "title": "올리브 해상해운",
+        "image": "03.webp",
+        "url": "http://oliveseanair.com/",
+        "description": "올리브택배입니다."
+      },
+      {
+        "id": "default_004",
+        "title": "올리브 해상해운",
+        "image": "04.webp",
+        "url": "http://oliveseanair.com/",
+        "description": "올리브택배입니다."
+      },
+      {
+        "id": "default_005",
+        "title": "올리브 해상해운",
+        "image": "05.webp",
+        "url": "http://oliveseanair.com/",
+        "description": "올리브택배입니다."
+      }
+    ]
+  },
+  "city_folder_map": {
+    "ho chi minh city": "hochiminh",
+    "ho chi minh": "hochiminh",
+    "hcmc": "hochiminh",
+    "chi minh city": "hochiminh",
+    "chi minh": "hochiminh",
+    "hochiminh": "hochiminh",
+    "saigon": "hochiminh",
+    "sgn": "hochiminh",
+    "da nang": "danang",
+    "danang": "danang",
+    "nha trang": "nhatrang",
+    "nhatrang": "nhatrang",
+    "vung tau": "vungtau",
+    "vungtau": "vungtau",
+    "bac ninh": "bacninh",
+    "bacninh": "bacninh",
+    "can tho": "cantho",
+    "cantho": "cantho",
+    "ha long bay": "halongbay",
+    "ha long": "halongbay",
+    "halong bay": "halongbay",
+    "halong": "halongbay",
+    "halongbay": "halongbay",
+    "long bay": "halongbay",
+    "hanoi": "hanoi",
+    "bangkok": "bangkok",
+    "bkk": "bangkok",
+    "chiang mai": "chiangmai",
+    "chiangmai": "chiangmai",
+    "pattaya": "pattaya",
+    "hua hin": "huahin",
+    "huahin": "huahin",
+    "koh samui": "kohsamui",
+    "kohsamui": "kohsamui",
+    "samui": "kohsamui",
+    "vientiane": "vientiane",
+    "luang prabang": "luangprabang",
+    "luangprabang": "luangprabang",
+    "vang vieng": "vangvieng",
+    "vangvieng": "vangvieng",
+    "phnom penh": "phnompenh",
+    "phnompenh": "phnompenh",
+    "siem reap": "siemreap",
+    "siemreap": "siemreap",
+    "yangon": "yangon",
+    "rangoon": "yangon",
+    "naypyidaw": "naypyidaw",
+    "may pyi taw": "naypyidaw",
+    "maypyidaw": "naypyidaw",
+    "nay pyi taw": "naypyidaw",
+    "naypyitaw": "naypyidaw",
+    "manila": "manila",
+    "mnl": "manila",
+    "cebu": "cebu",
+    "tokyo": "tokyo",
+    "tyo": "tokyo",
+    "tokyoto": "tokyo",
+    "osaka": "osaka",
+    "kobe": "kobe",
+    "kobeshi": "kobe",
+    "fukuoka": "fukuoka",
+    "fukuokashi": "fukuoka",
+    "yokohama": "yokohama",
+    "yokohamashi": "yokohama",
+    "seoul": "seoul",
+    "busan": "busan",
+    "suyeong-gu": "busan",
+    "suyeong gu": "busan",
+    "suyeong": "busan",
+    "incheon": "incheon",
+    "daegu": "daegu",
+    "daejeon": "daejeon",
+    "gwangju": "gwangju",
+    "new york city": "newyork",
+    "new york": "newyork",
+    "los angeles": "losangeles"
+  },
+  "notes": {
+    "usage": "이 파일은 Cloudflare Workers에서 광고 배너 정보를 제공하는 API의 데이터 소스입니다.",
+    "image_requirements": "각 광고 이미지는 280x160px 권장 크기이며, JPG/PNG 형식을 지원합니다.",
+    "url_optional": "url 필드가 비어있으면 클릭 시 배너 확대 팝업이 표시됩니다.",
+    "fallback": "사용자 지역의 광고가 없거나 부족할 경우 default 광고가 사용됩니다.",
+    "titles": "각 광고의 title은 regions 섹션의 ads 배열에 정의되어 있습니다."
+  },
+  "ads": {
+    "Korea": {
+      "cities": {
+        "default": [
+          {
+            "title": "한국관광공사 Visit Korea",
+            "description": "대한민국 공식 관광 정보",
+            "url": "https://korean.visitkorea.or.kr",
+            "image": "01_korea/default/한국관광공사_Visit_Korea.png",
+            "id": "01_default_001"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "여권·출입국 정부 안내",
+            "url": "https://www.gov.kr",
+            "image": "01_korea/default/대한민국_정부포털.png",
+            "id": "01_default_002"
+          },
+          {
+            "title": "외교부 해외안전여행",
+            "description": "해외여행 안전 필수 정보",
+            "url": "https://0404.go.kr",
+            "image": "01_korea/default/외교부_해외안전여행.png",
+            "id": "01_default_003"
+          },
+          {
+            "title": "문화체육관광부",
+            "description": "관광·문화 정책 정보",
+            "url": "https://www.mcst.go.kr",
+            "image": "01_korea/default/문화체육관광부.png",
+            "id": "01_default_004"
+          },
+          {
+            "title": "국토교통부",
+            "description": "항공·교통 여행 정보",
+            "url": "https://www.molit.go.kr",
+            "image": "01_korea/default/국토교통부.png",
+            "id": "01_default_005"
+          }
+        ]
+      }
+    },
+    "Vietnam": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "베트남 여행 안전정보",
+            "url": "https://0404.go.kr",
+            "image": "02_vietnam/default/외교부_해외안전여행.png",
+            "id": "02_default_001"
+          },
+          {
+            "title": "주베트남 대한민국 대사관",
+            "description": "베트남 영사·안전 안내",
+            "url": "https://vn.mofa.go.kr",
+            "image": "02_vietnam/default/주베트남_대한민국_대사관.png",
+            "id": "02_default_002"
+          },
+          {
+            "title": "베트남 관광청 한국어",
+            "description": "베트남 공식 관광 정보",
+            "url": "https://vietnamtourism.or.kr",
+            "image": "02_vietnam/default/베트남_관광청_한국어.png",
+            "id": "02_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "비자·여권 행정 안내",
+            "url": "https://www.gov.kr",
+            "image": "02_vietnam/default/대한민국_정부포털.png",
+            "id": "02_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 발급·분실 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "02_vietnam/default/외교부_여권안내.png",
+            "id": "02_default_005"
+          }
+        ]
+      }
+    },
+    "Thailand": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "태국 여행 안전 확인",
+            "url": "https://0404.go.kr",
+            "image": "03_thailand/default/외교부_해외안전여행.png",
+            "id": "03_default_001"
+          },
+          {
+            "title": "주태국 대한민국 대사관",
+            "description": "태국 영사 서비스",
+            "url": "https://th.mofa.go.kr",
+            "image": "03_thailand/default/주태국_대한민국_대사관.png",
+            "id": "03_default_002"
+          },
+          {
+            "title": "태국 관광청",
+            "description": "태국 정부 관광 정보",
+            "url": "https://www.tourismthailand.org/ko",
+            "image": "03_thailand/default/태국_관광청.png",
+            "id": "03_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "출입국·비자 안내",
+            "url": "https://www.gov.kr",
+            "image": "03_thailand/default/대한민국_정부포털.png",
+            "id": "03_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 공식 정보",
+            "url": "https://www.passport.go.kr",
+            "image": "03_thailand/default/외교부_여권안내.png",
+            "id": "03_default_005"
+          }
+        ]
+      }
+    },
+    "Laos": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "라오스 여행 안전 정보",
+            "url": "https://0404.go.kr",
+            "image": "04_laos/default/외교부_해외안전여행.png",
+            "id": "04_default_001"
+          },
+          {
+            "title": "주라오스 대한민국 대사관",
+            "description": "라오스 영사 안내",
+            "url": "https://laos.mofa.go.kr",
+            "image": "04_laos/default/주라오스_대한민국_대사관.png",
+            "id": "04_default_002"
+          },
+          {
+            "title": "라오스 관광청",
+            "description": "라오스 공식 관광",
+            "url": "https://www.tourismlaos.org",
+            "image": "04_laos/default/라오스_관광청.png",
+            "id": "04_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "비자·출입국 정보",
+            "url": "https://www.gov.kr",
+            "image": "04_laos/default/대한민국_정부포털.png",
+            "id": "04_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 업무 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "04_laos/default/외교부_여권안내.png",
+            "id": "04_default_005"
+          }
+        ]
+      }
+    },
+    "Cambodia": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "캄보디아 여행 안전",
+            "url": "https://0404.go.kr",
+            "image": "05_cambodia/default/외교부_해외안전여행.png",
+            "id": "05_default_001"
+          },
+          {
+            "title": "주캄보디아 대한민국 대사관",
+            "description": "캄보디아 영사 서비스",
+            "url": "https://kh.mofa.go.kr",
+            "image": "05_cambodia/default/주캄보디아_대한민국_대사관.png",
+            "id": "05_default_002"
+          },
+          {
+            "title": "캄보디아 관광청",
+            "description": "캄보디아 공식 관광",
+            "url": "https://www.tourismcambodia.org",
+            "image": "05_cambodia/default/캄보디아_관광청.png",
+            "id": "05_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "출입국 행정 정보",
+            "url": "https://www.gov.kr",
+            "image": "05_cambodia/default/대한민국_정부포털.png",
+            "id": "05_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 관련 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "05_cambodia/default/외교부_여권안내.png",
+            "id": "05_default_005"
+          }
+        ]
+      }
+    },
+    "Myanmar": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "미얀마 여행 안전 공지",
+            "url": "https://0404.go.kr",
+            "image": "06_myanmar/default/외교부_해외안전여행.png",
+            "id": "06_default_001"
+          },
+          {
+            "title": "주미얀마 대한민국 대사관",
+            "description": "미얀마 영사·안전",
+            "url": "https://mm.mofa.go.kr",
+            "image": "06_myanmar/default/주미얀마_대한민국_대사관.png",
+            "id": "06_default_002"
+          },
+          {
+            "title": "미얀마 관광청",
+            "description": "미얀마 공식 관광",
+            "url": "https://www.myanmartourism.org",
+            "image": "06_myanmar/default/미얀마_관광청.png",
+            "id": "06_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "여권·출입국 정보",
+            "url": "https://www.gov.kr",
+            "image": "06_myanmar/default/대한민국_정부포털.png",
+            "id": "06_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 발급 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "06_myanmar/default/외교부_여권안내.png",
+            "id": "06_default_005"
+          }
+        ]
+      }
+    },
+    "Philippines": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "필리핀 여행 안전 확인",
+            "url": "https://0404.go.kr",
+            "image": "07_philippines/default/외교부_해외안전여행.png",
+            "id": "07_default_001"
+          },
+          {
+            "title": "주필리핀 대한민국 대사관",
+            "description": "필리핀 영사 서비스",
+            "url": "https://ph.mofa.go.kr",
+            "image": "07_philippines/default/주필리핀_대한민국_대사관.png",
+            "id": "07_default_002"
+          },
+          {
+            "title": "필리핀 관광청",
+            "description": "필리핀 공식 관광",
+            "url": "https://www.tourism.gov.ph",
+            "image": "07_philippines/default/필리핀_관광청.png",
+            "id": "07_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "비자·출입국 정보",
+            "url": "https://www.gov.kr",
+            "image": "07_philippines/default/대한민국_정부포털.png",
+            "id": "07_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 공식 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "07_philippines/default/외교부_여권안내.png",
+            "id": "07_default_005"
+          }
+        ]
+      }
+    },
+    "Japan": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "일본 여행 안전 정보",
+            "url": "https://0404.go.kr",
+            "image": "08_japan/default/외교부_해외안전여행.png",
+            "id": "08_default_001"
+          },
+          {
+            "title": "주일본 대한민국 대사관",
+            "description": "일본 영사·안전 안내",
+            "url": "https://jp.mofa.go.kr",
+            "image": "08_japan/default/주일본_대한민국_대사관.png",
+            "id": "08_default_002"
+          },
+          {
+            "title": "일본정부관광국 JNTO",
+            "description": "일본 공식 관광 정보",
+            "url": "https://www.japan.travel/ko",
+            "image": "08_japan/default/일본정부관광국_JNTO.png",
+            "id": "08_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "여권·출입국 정보",
+            "url": "https://www.gov.kr",
+            "image": "08_japan/default/대한민국_정부포털.png",
+            "id": "08_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 업무 안내",
+            "url": "https://www.passport.go.kr",
+            "image": "08_japan/default/외교부_여권안내.png",
+            "id": "08_default_005"
+          }
+        ]
+      }
+    },
+    "Usa": {
+      "cities": {
+        "default": [
+          {
+            "title": "외교부 해외안전여행",
+            "description": "미국 여행 안전 정보",
+            "url": "https://0404.go.kr",
+            "image": "09_usa/default/외교부_해외안전여행.png",
+            "id": "09_default_001"
+          },
+          {
+            "title": "주미국 대한민국 대사관",
+            "description": "미국 영사 서비스",
+            "url": "https://us.mofa.go.kr",
+            "image": "09_usa/default/주미국_대한민국_대사관.png",
+            "id": "09_default_002"
+          },
+          {
+            "title": "미국 국무부 여행정보",
+            "description": "미국 정부 여행 안내",
+            "url": "https://travel.state.gov",
+            "image": "09_usa/default/미국_국무부_여행정보.png",
+            "id": "09_default_003"
+          },
+          {
+            "title": "대한민국 정부포털",
+            "description": "비자·여권 정보",
+            "url": "https://www.gov.kr",
+            "image": "09_usa/default/대한민국_정부포털.png",
+            "id": "09_default_004"
+          },
+          {
+            "title": "외교부 여권안내",
+            "description": "여권 발급·관리",
+            "url": "https://www.passport.go.kr",
+            "image": "09_usa/default/외교부_여권안내.png",
+            "id": "09_default_005"
+          }
+        ]
+      }
+    }
+  }
+}
